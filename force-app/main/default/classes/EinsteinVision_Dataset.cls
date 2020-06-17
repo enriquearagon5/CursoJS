@@ -7,6 +7,7 @@ public class EinsteinVision_Dataset {
     @AuraEnabled
     public DateTime createdAt {get; set;}
     @AuraEnabled
+    
     public DateTime updatedAt {get; set;}
     @AuraEnabled
     public EinsteinVision_LabelSummary labelSummary {get; set;}
